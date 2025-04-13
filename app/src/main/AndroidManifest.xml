@@ -25,10 +25,22 @@
             android:name=".BerandaActivity"
             android:exported="true">
         </activity>
-        <activity android:name=".SpmbActivity" />
-        <activity android:name=".ProgramStudiActivity" />
-        <activity android:name=".FasilitasActivity" />
-        <activity android:name=".DosenTendikActivity" />
+        <activity
+            android:name=".SpmbActivity"
+            android:exported="true">
+        </activity>
+        <activity
+            android:name=".ProgramStudiActivity"
+            android:exported="true">
+        </activity>
+        <activity
+            android:name=".FasilitasActivity"
+            android:exported="true">
+        </activity>
+        <activity
+            android:name=".DosenTendikActivity"
+            android:exported="true">
+        </activity>
 
     </application>
 
