@@ -111,17 +111,83 @@
         app:layout_constraintVertical_bias="0.39">
 
         <androidx.cardview.widget.CardView
+            android:id="@+id/snbp_card"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginLeft="20dp"
             android:layout_marginRight="20dp">
 
             <ImageView
-                android:id="@+id/imageView9"
+                android:id="@+id/_jsmn2"
                 android:layout_width="328dp"
                 android:layout_height="match_parent"
                 android:layout_marginLeft="40dp"
                 app:srcCompat="@drawable/snbp" />
+
+            <TextView
+                android:id="@+id/snbp_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="100dp"
+                android:text="SNBP"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/snbp_desk"
+                android:layout_width="368dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="130dp"
+                android:text="Jalur SNBP adalah seleksi nasional untuk masuk perguruan tinggi negeri yang merupakan PTN berdasarkan atas prestasi. SNBP ialah pengganti SNMPTN pada tahun 2025.." />
+
+            <Button
+                android:id="@+id/tutup_button"
+                android:layout_width="115dp"
+                android:layout_height="35dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="200dp"
+                android:layout_marginBottom="20dp"
+                android:text="Tutup"
+                android:textSize="12sp" />
+
+            <Button
+                android:id="@+id/id_snbp"
+                android:layout_width="wrap_content"
+                android:layout_height="35dp"
+                android:layout_marginLeft="150dp"
+                android:layout_marginTop="200dp"
+                android:text="Informasi Detail"
+                android:textSize="12sp" />
+        </androidx.cardview.widget.CardView>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="170dp"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.39">
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/snbt_card"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="300dp"
+            android:layout_marginRight="20dp">
+
+            <ImageView
+                android:id="@+id/snbtimage"
+                android:layout_width="328dp"
+                android:layout_height="115dp"
+                android:layout_marginLeft="40dp"
+                app:srcCompat="@drawable/snbt" />
 
             <TextView
                 android:id="@+id/textView6"
@@ -129,8 +195,35 @@
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="20dp"
                 android:layout_marginTop="100dp"
-                android:text="SNBP"
+                android:text="SNBT"
                 android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView10"
+                android:layout_width="368dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="130dp"
+                android:text="Seleksi Nasional Berdasarkan Tes (SNBT) adalah sistem seleksi nasional penerimaan mahasiswa baru yang dikelola oleh Balai Pengelolaan Pengujian Pendidikan (BP3) bekerja sama dengan PTN.." />
+
+            <Button
+                android:id="@+id/button4"
+                android:layout_width="115dp"
+                android:layout_height="35dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="200dp"
+                android:layout_marginBottom="20dp"
+                android:text="Tutup"
+                android:textSize="12sp" />
+
+            <Button
+                android:id="@+id/button5"
+                android:layout_width="wrap_content"
+                android:layout_height="35dp"
+                android:layout_marginLeft="150dp"
+                android:layout_marginTop="200dp"
+                android:text="Informasi Detail"
+                android:textSize="12sp" />
         </androidx.cardview.widget.CardView>
 
     </LinearLayout>
